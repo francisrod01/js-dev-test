@@ -1,0 +1,8 @@
+.idea/
+node_modules/
+
+*-lock.json
+yarn.lock
+
+# VsCode history plugin
+.history/*
