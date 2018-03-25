@@ -3,6 +3,7 @@ node_modules/
 
 *-lock.json
 yarn.lock
+*.log
 
 # VsCode history plugin
 .history/*
