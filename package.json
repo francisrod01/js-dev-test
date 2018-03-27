@@ -7,7 +7,7 @@
     "airport": "babel-node ./airport",
     "fazzBizzBarr": "babel-node ./fazz-bizz-barr",
     "hexaBinaryConverter": "babel-node ./hexa-binary-converter",
-    "test-airport": "mocha --compilers js:babel-core/register ./airport/tests/**/*.spec.js",
+    "test-airport": "mocha --compilers js:babel-core/register ./airport/src/tests/**/*.spec.js",
     "test-fazzBizzBarr": "mocha --compilers js:babel-core/register ./fazz-bizz-barr/tests/**/*.spec.js",
     "test-hexaBinaryConverter": "mocha --compilers js:babel-core/register ./hexa-binary-converter/tests/**/*.spec.js",
     "test": "echo \"Error: no test specified\" && exit 1"
